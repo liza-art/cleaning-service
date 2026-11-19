@@ -1,0 +1,99 @@
+
+body{
+ background-color: #F4FBFA;
+
+ font-family: Arial, Helvetica, sans-serif;
+
+margin: 0;
+
+}
+
+  
+
+ul{
+
+list-style: none;
+
+padding: 0;
+
+margin: 0;
+
+}
+
+  
+  
+
+.logo{
+ display: flex;
+
+flex-direction: row;
+
+align-items: center;
+
+color: teal;
+
+}
+
+  
+
+header{
+
+padding: 10px 5vw;
+
+ display: flex;
+
+flex-direction: row;
+
+justify-content: space-between;
+
+border-bottom: solid gray 1px;
+
+}
+
+  
+
+h1{
+
+font-size: 15px;
+
+}
+
+  
+
+.logo-navigation{
+
+display: flex;
+ width: 24vw;
+
+flex-direction: row;
+
+ justify-content: space-around;
+ align-items: center;
+
+margin: 0;
+
+height: 100%;
+
+  
+
+}
+
+  
+
+.contact,
+
+.about-us{
+ border: none;
+background-color: #148F7F;
+
+color: white;
+
+font-size: 15px;
+
+padding: 1vw 2vw;
+border-radius: 30px;
+
+  
+
+}
+
