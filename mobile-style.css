@@ -32,7 +32,7 @@ body {
 }
 
 header > nav {
-  border: solid red 2px;
+
   margin: 0;
   flex-wrap: wrap;
   display: flex;
@@ -67,6 +67,8 @@ header {
   /* height: 20vh; */
   border-bottom: solid 1px #e1f3f0;
   background-color: var(--bg);
+  height: 20vh;
+  
 }
 
 .intro h1 {
@@ -79,7 +81,23 @@ header {
   padding: 2vh 6vw;
   position: relative;
   background-color: var(--bg);
+  height: 80vh;
+  /* display: flex;
+  justify-content: space-around;
+  flex-direction: column; */
+}
 
+
+
+a.book{
+     border: solid var(--border) 1px;
+  border-radius: 20px;
+  color: var(--surface);
+ font-weight: 600;
+  background-color: var(--brand);
+  padding: 12px 18px;
+  border-radius: 28px;
+  text-decoration: none;
 }
 
 .star{
@@ -126,3 +144,109 @@ header {
   clip-path: polygon(50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%, 40% 40%);
 }
 
+
+
+#services{
+ margin: 10vh 6vw;
+}
+
+article.service.big{
+    color: var(--surface);
+    background-color: var(--brand);
+    padding: 2vh 5vw;
+    border: none;
+    border-radius: 20px;
+
+   
+}
+
+.service li{
+    list-style: none;
+    position: relative;
+    margin: 8px 0;
+    /* padding-left: 24px; */
+}
+
+.service li::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--accent);
+    clip-path: polygon(50% 0, 61% 39%, 100% 50%, 61% 61%, 50% 100%, 39% 61%, 0 50%, 39% 39%)
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list .service{
+    border: var(--border) 2px solid;
+    background-color: var(--bg-soft);
+    border-radius: 20px;
+    color: var(--text);
+    padding: 10px 6px;
+}
+
+
+.service h3,
+.service p{
+    padding-left: 30px;
+}
+
+#how{
+    background-color: var(--bg-soft);
+    padding: 6vh 20px;
+    color: var(--text);
+}
+
+.wrap p{
+    color: var(--text-muted);
+}
+
+
+.steps{
+    display: grid;
+    gap: 20px;
+    counter-reset: s;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.steps li{
+    counter-increment:  s;
+    position: relative;
+    padding: 2px 0 0 64px;
+    min-height: 48px
+}
+
+.steps li::before{
+    content:counter(s);
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--text);
+    font-weight: 900;
+    font-size: 1.4rem;
+    display: grid;
+    place-items: center;
+}
+
+.steps p{
+    margin: 4px  0 0;
+}
+
+
+.steps h3{
+  margin:0  0 10px;
+  padding-left: 0;
+}
