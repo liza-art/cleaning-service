@@ -95,6 +95,8 @@ a.book{
   color: var(--surface);
  font-weight: 600;
   background-color: var(--brand);
+  position: absolute;
+  bottom: 180px;
   padding: 12px 18px;
   border-radius: 28px;
   text-decoration: none;
@@ -124,7 +126,7 @@ a.book{
 
 .star3{
      position: absolute;
-    bottom: 34px;
+    bottom: 190px;
   right: 26px;
   width: 24px;
   height: 30px;
@@ -135,7 +137,7 @@ a.book{
 
 .big-star{
      position: absolute;
-     top: 32vh;
+     top: 25vh;
   right: 70px;
   width: 80px;
   height: 80px;
@@ -249,4 +251,129 @@ article.service.big{
 .steps h3{
   margin:0  0 10px;
   padding-left: 0;
+}
+
+.faq{
+  background-color: white;
+  margin: 10vh 4vw;
+}
+
+.faq .wrap{
+  max-width: 780px;
+  color: var(--text);
+}
+
+details{
+  border-bottom: 1px solid var(--border);
+}
+
+
+summary{
+  cursor: pointer;
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 16px 40px 16px 0;
+  position: relative;
+  /* min-height: 48px; */
+}
+
+summary::-webkit-details-marker{
+  display: none;
+}
+
+summary::after{
+  content: "+";
+  position:  absolute;
+  right: 6px;
+  top: 50%;
+  font-weight: 600;
+  color: var(--brand);
+  font-size: 26px;
+  transform: translateY(-50%);
+  transition: transform  .2s;
+}
+
+details[open] summary::after{
+  transform: translateY(-50%) rotate(45deg);
+}
+
+details p{
+  margin:  0  0 16px;
+}
+
+
+.book {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.lead{
+  color: var(--text-muted);
+}
+
+section.book{
+  padding: 8vh 20px;
+ 
+
+}
+
+.book.wrap{
+  width: 80vw;
+ }
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  background-color: white;
+  border: 2px solid var(--border);
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+form p{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+}
+
+label{
+  font-weight: 800;
+}
+
+input,
+select,
+textarea{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  background-color: var(--bg);
+  color: var(--text-muted);
+  font: inherit;
+}
+
+input,
+select{
+  height: 44px;
+}
+
+textarea{
+  min-height: 110px;
+  resize: vertical;
+}
+
+input[type="submit"]{
+  background-color: var(--brand-dark);
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
 }

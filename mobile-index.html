@@ -1,179 +1,258 @@
 <!doctype html>
 <html lang="uk">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Професійне прибирання квартир і будинків: підтримуюче, генеральне, після ремонту. Обирайте послугу та бронюйте зручний час онлайн."
-    />
-    <!-- later add seo optimization of different platforms -->
 
-    <title>Феї чистоти: прибирання квартир і будинків</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800;900&display=swap&subset=cyrillic"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="mobile-style.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Професійне прибирання квартир і будинків: підтримуюче, генеральне, після ремонту. Обирайте послугу та бронюйте зручний час онлайн." />
+  <!-- later add seo optimization of different platforms -->
 
-  <body>
-    <!-- nav & logo -->
-    <header>
-      <div class="logo">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-broom-sparkles preview-icon"
-        >
-          <path d="M11 2v2" />
-          <path d="M12 3h-2" />
-          <path d="M13.5 10.5 22 2" />
-          <path
-            d="M14.734 13.841a2 2 0 00-.314-2.42L12.58 9.58a2 2 0 00-2.421-.314l-7.657 4.461A1 1 0 002.3 15.3l6.403 6.403a1 1 0 001.571-.204z"
-          />
-          <path d="M20 15v4" />
-          <path d="M22 17h-4" />
-          <path d="M4 4v4" />
-          <path d="m5 18 2-2" />
-          <path d="M6 6H2" />
-          <path d="m7.699 10.7 5.602 5.601" />
-        </svg>
-        <p>Феї чистоти</p>
+  <title>Феї чистоти: прибирання квартир і будинків</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800;900&display=swap&subset=cyrillic"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="mobile-style.css" />
+</head>
+
+<body>
+  <!-- nav & logo -->
+  <header>
+    <div class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="lucide lucide-broom-sparkles preview-icon">
+        <path d="M11 2v2" />
+        <path d="M12 3h-2" />
+        <path d="M13.5 10.5 22 2" />
+        <path
+          d="M14.734 13.841a2 2 0 00-.314-2.42L12.58 9.58a2 2 0 00-2.421-.314l-7.657 4.461A1 1 0 002.3 15.3l6.403 6.403a1 1 0 001.571-.204z" />
+        <path d="M20 15v4" />
+        <path d="M22 17h-4" />
+        <path d="M4 4v4" />
+        <path d="m5 18 2-2" />
+        <path d="M6 6H2" />
+        <path d="m7.699 10.7 5.602 5.601" />
+      </svg>
+      <p>Феї чистоти</p>
+    </div>
+    <nav>
+      <a href="#services">Послуги</a>
+      <a href="#faq">Питання</a>
+      <a href="#book">Контакти</a>
+      <!-- <a class="btn" href="#book">Забронювати</a> -->
+    </nav>
+  </header>
+  <!-- main info about services like articles & sections -->
+  <main>
+    <section class="intro">
+      <h1>
+        Ми піклуємося про чистоту у вашому домі, щоб ви могли витрачати час на
+        те, що справді важливо.<span class="star" class="star2" class="star3"></span>
+        <span class="star2"></span><span class="star3"></span>
+        <span class="big-star"></span>
+      </h1>
+
+      <p>
+        Прибираємо квартири та будинки зі своїми засобами. Ви обираєте послугу
+        та зручний час, а ми повертаємо дому свіжість.
+      </p>
+      <a href="#book" class="book">Забронювати прибирання</a>
+    </section>
+
+    <section class="services" id="services">
+      <div class="wrap">
+        <h2>Наші послуги</h2>
+        <p class="lead">Оберіть те, що потрібно вашому дому. Якщо не впевнені, напишіть нам, і ми підкажемо.</p>
       </div>
-      <nav>
-        <a href="#services">Послуги</a>
-        <a href="#faq">Питання</a>
-        <a href="#book">Контакти</a>
-        <!-- <a class="btn" href="#book">Забронювати</a> -->
-      </nav>
-    </header>
-    <!-- main info about services like articles & sections -->
-    <main>
-      <section class="intro">
-        <h1>
-          Ми піклуємося про чистоту у вашому домі, щоб ви могли витрачати час на
-          те, що справді важливо.<span class="star" class="star2" class="star3"></span>
-          <span class="star2"></span><span class="star3"></span>
-          <span class="big-star"></span>
-        </h1>
+      <div class="list">
+        <article class="service big">
+          <h3>Генеральне прибирання</h3>
+          <!-- <p></p> -->
+          <ul>
+            <li>Усе, що входить у підтримуюче прибирання</li>
+            <li>Миття плінтусів, дверей, ручок і вимикачів</li>
+            <li>Прибирання меблів в середині та ззовні</li>
+            <li>Миття духовки, мікрохвильовки та витяжки ззовні</li>
+            <li>Миття холодильника всередині та зовні</li>
+            <li>Видалення нальоту та вапняку в санвузлі</li>
+            <li>Миття підвіконь</li>
+          </ul>
+        </article>
+        <article class="service">
+          <h3>Підтримуюче прибирання</h3>
+          <!-- <p></p> -->
+          <ul>
+            <li>Витирання пилу з поверхонь, меблів і техніки</li>
+            <li>Пилосос та вологе миття підлоги</li>
+            <li>Миття раковин, ванни/душу, унітаза</li>
+            <li>Прибирання кухні: стільниця, плита зовні, мийка, фасади</li>
+            <li>Миття дзеркал і скляних поверхонь</li>
+            <li>Прибирання сміття та заміна пакетів</li>
 
-        <p>
-          Прибираємо квартири та будинки зі своїми засобами. Ви обираєте послугу
-          та зручний час, а ми повертаємо дому свіжість.
-        </p>
-        <a href="#book" class="book">Забронювати прибирання</a>
-      </section>
+          </ul>
+        </article>
+        <article class="service">
+          <h3>Прибирання перед заселенням / після виселення</h3>
+          <!-- <p></p> -->
+          <ul>
+            <li>Усе, що входить у підтримуюче прибирання</li>
+            <li>Миття всіх поверхонь, шаф і шухляд зсередини</li>
+            <li>Миття кухні, техніки, санвузла</li>
 
-      <section  class="services" id="services">
-        <div class="wrap">
-            <h2>Наші послуги</h2>
-             <p class="lead">Оберіть те, що потрібно вашому дому. Якщо не впевнені, напишіть нам, і ми підкажемо.</p>
-        </div>
-        <div class="list">  
-            <article class="service big">
-                <h3>Генеральне прибирання</h3>
-                <!-- <p></p> -->
-                <ul>
-                    <li>Усе, що входить у підтримуюче прибирання</li>
-                    <li>Миття плінтусів, дверей, ручок і вимикачів</li>
-                    <li>Прибирання меблів в середині та ззовні</li>
-                    <li>Миття духовки, мікрохвильовки та витяжки ззовні</li>
-                    <li>Миття холодильника всередині та зовні</li>
-                    <li>Видалення нальоту та вапняку в санвузлі</li>
-                    <li>Миття підвіконь</li>
-                </ul>
-            </article>
-              <article class="service">
-                <h3>Підтримуюче прибирання</h3>
-                <!-- <p></p> -->
-                <ul>
-                    <li>Витирання пилу з поверхонь, меблів і техніки</li>
-                    <li>Пилосос та вологе миття підлоги</li>
-                    <li>Миття раковин, ванни/душу, унітаза</li>
-                    <li>Прибирання кухні: стільниця, плита зовні, мийка, фасади</li>
-                    <li>Миття дзеркал і скляних поверхонь</li>
-                    <li>Прибирання сміття та заміна пакетів</li>
-                    
-                </ul>
-            </article>
-              <article class="service">
-                <h3>Прибирання перед заселенням / після виселення</h3>
-                <!-- <p></p> -->
-                <ul>
-                    <li>Усе, що входить у підтримуюче прибирання</li>
-                    <li>Миття всіх поверхонь, шаф і шухляд зсередини</li>
-                    <li>Миття кухні, техніки, санвузла</li>
-            
-                </ul>
-            </article>
-              <article class="service">
-                <h3>Прибирання після ремонту</h3>
-                <!-- <p></p> -->
-                <ul>
-                    <li>Видалення будівельного пилу з усіх поверхонь</li>
-                    <li>Прибирання залишків фарби, штукатурки, клею та плівки</li>
-                    <li>Миття підлоги, плінтусів, дверей, радіаторів</li>
-                    <li>Прибирання санвузла та кухні</li>
-                    <li>Вивезення дрібного сміття (за домовленістю)</li>
-                </ul>
-            </article>
-              <article class="service">
-                <h3>Прибирання офісів та комерційних приміщень</h3>
-                <!-- <p></p> -->
-                <ul>
-                    <li>Прибирання робочих місць, переговорних і кухонь</li>
-                    <li>Миття підлоги та санвузлів</li>
-                    <li>Графік за домовленістю</li>
-                </ul>
-            </article>
-         <article class="service">
-          
-             <h3>Додатково</h3>
-            <p>Можна додати до будь-якого прибирання.</p>
-          
-            <ul>
-              <li>Духовка, холодильник, мікрохвильовка</li>
-              <li>Шафи всередині</li>
-              <li>Люстри та світильники</li>
-              <li>Прасування білизни</li>
-              <li>Прибирання після домашніх тварин</li>
-            </ul>
-          </article>
-        </div>
-      </section>
+          </ul>
+        </article>
+        <article class="service">
+          <h3>Прибирання після ремонту</h3>
+          <!-- <p></p> -->
+          <ul>
+            <li>Видалення будівельного пилу з усіх поверхонь</li>
+            <li>Прибирання залишків фарби, штукатурки, клею та плівки</li>
+            <li>Миття підлоги, плінтусів, дверей, радіаторів</li>
+            <li>Прибирання санвузла та кухні</li>
+            <li>Вивезення дрібного сміття (за домовленістю)</li>
+          </ul>
+        </article>
+        <article class="service">
+          <h3>Прибирання офісів та комерційних приміщень</h3>
+          <!-- <p></p> -->
+          <ul>
+            <li>Прибирання робочих місць, переговорних і кухонь</li>
+            <li>Миття підлоги та санвузлів</li>
+            <li>Графік за домовленістю</li>
+          </ul>
+        </article>
+        <article class="service">
 
-      <section id="how">
-        <div class="wrap">
-             <h2>Як це працює</h2>
+          <h3>Додатково</h3>
+          <p>Можна додати до будь-якого прибирання.</p>
+
+          <ul>
+            <li>Духовка, холодильник, мікрохвильовка</li>
+            <li>Шафи всередині</li>
+            <li>Люстри та світильники</li>
+            <li>Прасування білизни</li>
+            <li>Прибирання після домашніх тварин</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="how">
+      <div class="wrap">
+        <h2>Як це працює</h2>
         <p class="lead">Три кроки від заявки до чистого дому.</p>
         <ol class="steps">
-            <li>
-                <h3>Оберіть послугу</h3>
-                <p>Вкажіть тип прибирання та площу помешкання.</p>
-            </li>
-             <li>
-                <h3>Оберіть час</h3>
-                <p>Запропонуйте дату та годину, а ми підтвердимо запис.</p>
-            </li>
-             <li>
+          <li>
+            <h3>Оберіть послугу</h3>
+            <p>Вкажіть тип прибирання та площу помешкання.</p>
+          </li>
+          <li>
+            <h3>Оберіть час</h3>
+            <p>Запропонуйте дату та годину, а ми підтвердимо запис.</p>
+          </li>
+          <li>
             <h3>Насолоджуйтесь чистотою</h3>
             <p>Ми приходимо зі своїми засобами та робимо все, як домовились.</p>
           </li>
         </ol>
-        </div>
+      </div>
 
-      </section>
-    </main>
-    <footer></footer>
-  </body>
+    </section>
+    <section id="faq" class="faq">
+      <div class="wrap">
+        <h2>Часті питання</h2>
+        <details>
+          <summary>Скільки коштує прибирання?</summary>
+          <p>Вартість залежить від типу прибирання, площі та стану помешкання. Напишіть нам, і ми назвемо орієнтовну
+            ціну.</p>
+
+        </details>
+        <details>
+          <summary>Скільки часу займає прибирання?</summary>
+          <p>Підтримуюче прибирання однокімнатної квартири займає 1–1.5 години, генеральне — 2-5 годин. Точний час
+            залежить від площі та стану помешкання.</p>
+        </details>
+        <details>
+          <summary>Чи потрібно мені бути вдома?</summary>
+          <p>Ні, не обов’язково. Можна залишити ключі за домовленістю або бути присутнім під час прибирання.</p>
+        </details>
+        <details>
+          <summary>Чи ви привозите власні засоби?</summary>
+          <p>Так, ми працюємо зі своїми засобами. Якщо у вас алергія або є особливі побажання, повідомте нас
+            заздалегідь.</p>
+        </details>
+        <details>
+          <summary>Як підготуватися до прибирання?</summary>
+          <p>Приберіть цінні речі та особисті документи, а також звільніть поверхні від дрібних предметів, щоб ми могли
+            їх протерти.</p>
+        </details>
+        <details>
+          <summary>Як скасувати або перенести запис?</summary>
+          <p>Повідомте нас не пізніше ніж за 24 години до початку, і ми підберемо інший час.</p>
+        </details>
+        <details>
+          <summary>Які способи оплати доступні?</summary>
+          <p>Готівка або переказ на картку. Оплата після завершення прибирання.</p>
+        </details>
+      </div>
+
+    </section>
+    <section id="book" class="book">
+      <div class="wrap">
+        <h2>Забронювати
+          прибирання</h2>
+        <p class="lead">Залиште заявку, і ми зателефонуємо або напишемо, щоб підтвердити час.</p>
+      </div>
+      <div class="form">
+      <form id="orderForm">
+  <p>
+    <label for="area">Площа квартири, м²</label>
+    <input type="number" id="area" name="area" min="1" required>
+  </p>
+  <p>
+    <label for="district">Район</label>
+    <select id="district" name="district" required>
+      <option>Оберіть</option>
+      <option>Приморський</option>
+      <option>Аркадія</option>
+      <option>Київський</option>
+      <option>Фонтан(до 10 ст.)</option>
+    </select>
+  </p>
+  <p>
+    <label for="type">Тип прибирання</label>
+    <select id="type" name="type" required>
+      <option value="">Оберіть</option>
+      <option>Підтримуюче прибирання</option>
+      <option>Генеральне прибирання</option>
+      <option>Прибирання перед заселенням / після виселення</option>
+      <option>Прибирання після ремонту</option>
+      <option>Прибирання офісів та комерційних приміщень</option>
+    </select>
+  </p>
+  <p>
+    <label for="date">Дата</label>
+    <input type="date" id="date" name="date" required>
+  </p>
+  <p>
+    <label for="time">Час</label>
+    <input type="time" id="time" name="time">
+  </p>
+  <p>
+    <label for="note">Побажання</label>
+    <textarea id="note" name="note" placeholder="Площа, домашні тварини, на що звернути увагу"></textarea>
+  </p>
+  <input type="submit" value="Надіслати заявку">
+</form>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="file.js"></script>
+</body>
+
 </html>
