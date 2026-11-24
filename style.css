@@ -1,99 +1,94 @@
-
-body{
- background-color: #F4FBFA;
-
- font-family: Arial, Helvetica, sans-serif;
-
-margin: 0;
-
+/* navigation's styling */
+body {
+  background-color: #f4fbfa;
 }
 
-  
-
-ul{
-
-list-style: none;
-
-padding: 0;
-
-margin: 0;
-
+* {
+  font-family:
+    "Nunito",
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    Arial,
+    sans-serif;
+  margin: 0;
 }
 
-  
-  
-
-.logo{
- display: flex;
-
-flex-direction: row;
-
-align-items: center;
-
-color: teal;
-
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-  
-
-header{
-
-padding: 10px 5vw;
-
- display: flex;
-
-flex-direction: row;
-
-justify-content: space-between;
-
-border-bottom: solid gray 1px;
-
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: teal;
 }
 
-  
-
-h1{
-
-font-size: 15px;
-
+header {
+  padding: 10px 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid gray 1px;
 }
 
-  
-
-.logo-navigation{
-
-display: flex;
- width: 24vw;
-
-flex-direction: row;
-
- justify-content: space-around;
- align-items: center;
-
-margin: 0;
-
-height: 100%;
-
-  
-
+h1 {
+  font-size: 15px;
 }
 
-  
+.logo-navigation {
+  display: flex;
+  width: 24vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+}
 
 .contact,
-
-.about-us{
- border: none;
-background-color: #148F7F;
-
-color: white;
-
-font-size: 15px;
-
-padding: 1vw 2vw;
-border-radius: 30px;
-
-  
-
+.about-us {
+  border: none;
+  background-color: #148f7f;
+  color: white;
+  font-size: 15px;
+  padding: 1vw 2vw;
+  border-radius: 30px;
 }
 
+/* end of navigation bar's styling */
+
+/* styling of section -  description */
+
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.left-grid{
+  /* border: solid 3px red; */
+  margin: 2vw 9vw;
+  color: #0E6F62;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 70vw 30vw;
+}
+
+
+.left-grid p{
+    color: #51647A;
+}
+
+.description-button{
+    
+}

@@ -377,3 +377,51 @@ input[type="submit"]{
   border: none;
   cursor: pointer;
 }
+
+
+/* footer */
+footer .footer-wrap{
+    background-color: var(--brand-dark);
+  color: white;
+  padding: 4vh 5vw;
+display: flex;
+flex-direction: column;
+gap: 28px;
+}
+
+footer h3{
+  color: white;
+  margin-bottom: 6px;
+  font-size:1.1rem ;
+}
+
+footer p{
+  margin: 4px 0;
+}
+footer a{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+#chat{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+#chat a{
+  border: solid var(--bg) 2px;
+  padding: 11px 20px;
+  border-radius: 25px ;
+  color: white;
+  font-weight: 600;
+}
+
+#chat a:hover {
+  background:  rgba(255, 255, 255, .12);
+}
+

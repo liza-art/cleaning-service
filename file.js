@@ -8,7 +8,7 @@ form.addEventListener("submit", function (e) {
     const area = f.get("area");
     const district = f.get("district");
     const type = f.get("type");
-    const date = f.get("date");
+    const date = f.get("date") || "не указано";
     const time = f.get("time") || "не указано";
     const note = f.get("note");
     const text = `Доброго дня! Хочу замовити прибирання.
@@ -19,7 +19,7 @@ form.addEventListener("submit", function (e) {
 Час: ${time}
 Побажання: ${note}`;
 
-    const url = "https://t.me/gvozddash?text=" + encodeURIComponent(text);
+    const url = "https://t.me/Yo_soy_Liza?text=" + encodeURIComponent(text);
     const win = window.open(url, "_blank", "noopener,noreferrer");
     if (!win) {
         // Fallback if popup was blocked
