@@ -19,7 +19,7 @@ form.addEventListener("submit", function (e) {
 Час: ${time}
 Побажання: ${note}`;
 
-    const url = "https://t.me/Yo_soy_Liza?text=" + encodeURIComponent(text);
+    const url = "https://t.me/ludataranenko_gvozd_23?text=" + encodeURIComponent(text);
     const win = window.open(url, "_blank", "noopener,noreferrer");
     if (!win) {
         // Fallback if popup was blocked
